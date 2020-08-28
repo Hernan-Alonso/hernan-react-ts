@@ -10,7 +10,7 @@ const Home: FC = ()=>{
             <Headline title="Counter App" />
             <Button label={"Inc +"} onClick={()=> handlerOnClick(1)} />
             Counter: {counter}
-            <Button label={"Inc +"} onClick={()=> handlerOnClick(-1)} />
+            <Button label={"Inc -"} onClick={()=> handlerOnClick(-1)} />
         </Fragment>
         
     )
